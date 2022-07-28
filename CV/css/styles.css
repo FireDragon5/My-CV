@@ -1,0 +1,199 @@
+
+
+/* Nav div Part */
+
+
+.top_div{
+  background-color: #333;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+.top_div a{
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top_div a:hover{
+background-color: wheat;
+color: black;
+}
+
+.top_div a.active{
+background-color: wheat;
+color: black;
+}
+
+.top_favicon{
+float: right;
+max-width: 100%;
+max-height: auto;
+}
+
+.contact{
+  float: left;
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gallery{
+  float: left;
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.about{
+  float: left;
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/* End of Nav part */
+
+
+/* Mountain part */
+
+.name{
+color: #fff;
+font-size: 6rem;
+font-family: "Sacramento", cursive;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+margin-top: -100px;
+
+}
+
+h2 {
+font-size: 2.5rem;
+
+}
+.mountain{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  filter: blur(0px);
+
+  border-radius: 20px;
+  
+}
+
+.mountain:hover{
+  filter: blur(5px);
+}
+.name:hover{
+  filter: blur(5px);
+}
+
+.top-cloud {
+position: absolute;
+right: 70%;
+top: 50px;
+background-attachment: scroll;
+}
+
+.bottom-cloud {
+position: absolute;
+left: 70%;
+top: 50px;
+}
+
+
+
+p {
+color: #000000;
+font-size: 30px;
+}
+
+#hello_h2{
+    font-family: "Sacramento", cursive;
+}
+
+
+/* End of Mountain part */
+
+/* Middle div */
+
+
+body {
+margin: 0;
+background-color: white;
+text-align: center;
+font-family: verdana, sans-serif;
+}
+
+.favicon {
+width: 50px;
+}
+
+.skill-row {
+width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 2;
+}
+
+.code-img {
+width: 25%;
+float: left;
+margin-right: 30px;
+}
+
+.chilli-img {
+width: 25%;
+float: right;
+margin-left: 30px;
+}
+
+
+
+
+/* End of Middle Div */
+
+
+
+
+/* Footer */
+
+.footer {
+text-align: center;
+}
+
+#upscroll{
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#upscroll:hover{
+    color: white;
+}
+
+
+
+/* End of Footer */
+
+
+
+
+
+.column {
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
