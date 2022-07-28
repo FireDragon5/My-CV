@@ -110,6 +110,9 @@ top: 50px;
 }
 
 
+.short-summary{
+  font-family: 'Courier New', Courier, monospace;
+}
 
 p {
 color: #000000;
@@ -144,20 +147,22 @@ text-align: left;
 line-height: 2;
 }
 
-.code-img {
-width: 25%;
-float: left;
-margin-right: 30px;
-}
-
-.chilli-img {
-width: 25%;
-float: right;
-margin-left: 30px;
-}
+.background-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  }
 
 
 
+.My-img {
+  width: 50%;
+  float: right;
+  margin-left: 30px;
+  height: auto;
+  border-radius: 50px;
+  }
 
 /* End of Middle Div */
 
@@ -168,6 +173,7 @@ margin-left: 30px;
 
 .footer {
 text-align: center;
+float: bottom;
 }
 
 #upscroll{
