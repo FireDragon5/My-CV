@@ -7,6 +7,7 @@
   background-color: #333;
   overflow: hidden;
   margin-top: 0px;
+  border-radius: 20px;
 }
 
 .top_div a{
@@ -20,6 +21,7 @@
 .top_div a:hover{
 background-color: wheat;
 color: black;
+border-radius: 20px;
 }
 
 .top_div a.active{
@@ -84,11 +86,13 @@ margin-top: auto;
   background-color: transparent;
   transform: translate(-50%, -50%);
   margin-top: 120px;
+  border-radius: 10px;
 }
 
 .top-button:hover{
   cursor: pointer;
   font-size: 40px;
+  border-radius: 20px;
   transition-duration: .8s;
 
 }
