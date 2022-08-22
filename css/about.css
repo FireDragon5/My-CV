@@ -1,0 +1,227 @@
+/* Main  */
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: verdana, sans-serif;
+    }
+
+/* End of Main  */
+
+
+
+/* Top Div */
+
+.top-nav #ham-buttons{
+    display: none;
+}
+.top_nav #icon{
+    float: right;
+}
+
+.ham-buttons{
+    font-size: 20px;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+
+}
+
+.top_nav{
+    max-width: 100%;
+    margin: auto;
+    background-color: #333;
+    height: 49px;
+    color: white;
+    border-radius: 10px;
+}
+
+.contact{
+    float: left;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gallery{
+    float: left;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top_nav a{
+color: #fff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.top_nav a:hover{
+background-color: wheat;
+color: black;
+border-radius: 10px;
+}
+
+.top_nav a.active{
+background-color: wheat;
+color: black;
+}
+
+.top_favicon{
+float: right;
+max-width: 100%;
+max-height: auto;
+}
+
+/* Ending of top Div  */
+
+/* About me img div */
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+.about-me-img{
+    width: 40%;
+    height: 40%;
+}
+
+/* Ending of about me img div */
+
+
+/* middle class */
+
+
+.education{
+    font-size: 20px;
+    margin-top: -20px;
+}
+.school-img {
+    width: 30%;
+    float: right;
+    margin-right: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    }
+
+
+.hobbie-img{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-top: -30px;
+    
+}
+
+.passion-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.background-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.term-goal-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.skills-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.background-row {
+width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 2;
+}
+
+.skills-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.term-goal-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.hobbies-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+    line-height: 2;
+}
+
+.interests-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.passion-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+/* End of middle class */
+
+
+/* Footer */
+
+.footer {
+
+text-align: center;
+padding-top: 2.5em;
+}
+
+.favicon {
+    width: 50px;
+}
+
+#upscroll{
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#upscroll:hover{
+    color: white;
+}
+    
+    
+    
+    /* End of Footer */

@@ -1,0 +1,57 @@
+/* Contacts */
+/* Nav div Part */
+
+
+.top_div{
+    background-color: #333;
+    overflow: hidden;
+    margin-top: 0px;
+    border-radius: 20px;
+  }
+  
+  .top_div a{
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .top_div a:hover{
+  background-color: wheat;
+  color: black;
+  border-radius: 20px;
+  }
+  
+  .top_div a.active{
+  background-color: wheat;
+  color: black;
+  }
+  
+  .top_favicon{
+  float: right;
+  max-width: 100%;
+  max-height: auto;
+  }
+  
+
+  
+  .gallery{
+    float: left;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .about{
+    float: left;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  
+  /* End of Nav part */
+
+  /* contacts */

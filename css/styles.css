@@ -1,0 +1,639 @@
+/* Nav div Part */
+
+.top_nav {
+  background-color: #333;
+  overflow: hidden;
+  margin-top: 0px;
+  border-radius: 20px;
+}
+
+.top_nav a {
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top_nav a:hover {
+  background-color: wheat;
+  color: black;
+  border-radius: 20px;
+}
+
+.top_nav a.active {
+  background-color: wheat;
+  color: black;
+}
+
+.top_favicon {
+  float: left;
+  max-width: 100%;
+  max-height: auto;
+}
+
+/*Tooltip Home icon*/
+.tooltip0 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip0text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  top: -5px;
+  right: 105%;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip0:hover .tooltip0text {
+  visibility: visible;
+}
+
+.contact {
+  float: right;
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gallery {
+  float: right;
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.about {
+  float: right;
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* End of Nav part */
+
+/* Mountain part */
+
+.name {
+  color: #fff;
+  font-size: 6rem;
+  font-family: "Sacramento", cursive;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  margin-top: auto;
+  animation: moveToLeft 1.3s ease-in;
+  animation-delay: 10ms;
+  text-shadow: 5px 5px #333;
+}
+
+@keyframes moveToLeft {
+  0% {
+    transform: translateX(300%);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.top-button {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  top: 55%;
+  left: 45%;
+  background-color: transparent;
+  margin-top: 120px;
+  border-radius: 10px;
+  animation: moveUp 1.3s ease-in;
+  animation-delay: 10ms;
+  box-shadow: 4px 4px #fff;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(300%);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-flicker {
+  -webkit-animation: flickerAnimation 0.5s infinite;
+  -moz-animation: flickerAnimation 0.5s infinite;
+  -o-animation: flickerAnimation 0.5s infinite;
+  animation: flickerAnimation 0.5s infinite;
+}
+
+.top-button:hover {
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+.mountain {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 0 auto;
+  filter: blur(0px);
+
+  border-radius: 20px;
+}
+
+.mountain:hover {
+  filter: blur(4px);
+}
+.name:hover {
+  filter: blur(2px);
+  transition-timing-function: linear;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 70%;
+  top: 180px;
+  width: auto;
+  height: 12%;
+  background-attachment: scroll;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 70%;
+  top: 300px;
+  width: auto;
+  height: 10%;
+}
+
+.short-summary {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: -40px;
+}
+
+p {
+  color: #000000;
+  font-size: 30px;
+}
+.background-p {
+  margin-left: 200px;
+}
+
+#hello_h2 {
+  font-family: "Sacramento", cursive;
+}
+
+/* End of Mountain part */
+
+/* Middle div */
+
+.favicon {
+  width: 50px;
+}
+
+.background-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.my-img {
+  width: 30%;
+  float: left;
+  margin-left: -140px;
+  height: 30%;
+  margin-top: -50px;
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 30%;
+  box-shadow: inset 0 0 50px #fff, inset 20px 0 80px #333,
+    inset -20px 0 80px #000, inset 20px 0 300px #333, inset -20px 0 300px #000,
+    0 0 50px #333, -10px 0 80px #333, 10px 0 80px #000;
+}
+
+/* End of Middle Div */
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  background-color: #333;
+  border-radius: 20px;
+}
+
+.copyright {
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+}
+
+#upscroll {
+  background-color: #333;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+#upscroll:hover {
+  background-color: wheat;
+  border-radius: 20px;
+}
+
+/* End of Footer */
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* About */
+/* Main  */
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: verdana, sans-serif;
+}
+
+/* End of Main  */
+
+/* About me img div */
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+}
+.about-me-img {
+  margin-top: 5px;
+  border-radius: 20px;
+  width: 100%;
+  height: 600px;
+}
+
+/* Ending of about me img div */
+
+/* middle class */
+
+.small-background {
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.hobbie-img {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+  border-radius: 20px;
+  margin-top: -3%;
+}
+
+.passion-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.background-img {
+  width: 15%;
+  height: auto;
+  float: left;
+  margin-top: auto;
+  border-radius: 20px;
+  margin-top: -5%;
+}
+
+.term-goal-img {
+  width: auto;
+  height: 25%;
+  float: right;
+  margin-right: 1%;
+  border-radius: 20px;
+  margin-top: -2%;
+}
+
+.skills-img {
+  width: auto;
+  height: 120px;
+  float: left;
+  margin-right: 5%;
+  border-radius: 20px;
+  margin-top: 1%;
+}
+
+.background-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.term-goal-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.hobbies-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.interests-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.passion-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.interests-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.education-p {
+  font-size: 30px;
+  margin-top: auto;
+}
+.hobbies-interests-p {
+  font-size: 15px;
+  margin-top: auto;
+}
+.passion-p {
+  font-size: 25px;
+  margin-top: auto;
+}
+.term-goal-p {
+  font-size: 25px;
+  margin-top: auto;
+}
+
+.skills-p {
+  font-size: 20px;
+  margin-right: auto;
+}
+
+.skills-h {
+  color: #333;
+}
+
+/* End of middle class */
+
+/* Footer */
+
+/* End of Footer */
+/* About */
+
+.discord-social {
+  width: auto;
+  height: 50px;
+  display: inline-block;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.github-social {
+  width: auto;
+  height: 50px;
+  display: inline-block;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.submit_btn {
+  cursor: pointer;
+  box-shadow: 3px 3px wheat;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.container {
+  background-color: #333;
+  padding: 5px 20px 15px 20px;
+  border-radius: 10px;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-about {
+  background-color: #d3d3d3;
+  border-radius: 10px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-info {
+  font-size: 20px;
+  color: wheat;
+  margin-top: 5%;
+}
+
+.contact-p {
+  font-size: 20px;
+  color: #000000;
+  margin-top: 5%;
+}
+
+.hobbies-interests {
+  margin-top: 15%;
+}
+
+.top_p {
+  font-size: 20px;
+  color: wheat;
+  margin-top: 15%;
+}
+
+.small-background-p {
+  font-size: 25px;
+  margin-top: -15%;
+  margin-left: 20%;
+  float: right;
+}
+
+.top_h1 {
+  font-size: 50px;
+  color: wheat;
+  margin-top: 20px;
+}
+
+.contact-info-container {
+  background-color: #d3d3d3;
+  padding: 5px 20px 15px 20px;
+  border-radius: 10px;
+  width: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-img {
+  width: auto;
+  height: 25%;
+  display: inline-block;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.socials {
+  color: wheat;
+}
+
+form {
+  color: whitesmoke;
+}
+
+.projects-p {
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: -30px;
+}
+.projects-row {
+  width: 50%;
+
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.projects-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.project-h {
+  font-family: "Sacramento", cursive;
+  color: white;
+}
+
+.my-project-h {
+  font-family: "Sacramento", cursive;
+  color: white;
+  margin-top: 40%;
+}
+
+.project-p {
+  color: white;
+}
+
+.my-projects {
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: -30px;
+  margin-top: -10%;
+}
+
+.github {
+  width: auto;
+  height: 50px;
+  display: inline-block;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-left: 15%;
+}
+
+.spigot {
+  width: auto;
+  height: 50px;
+  display: inline-block;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-left: 15%;
+}
+.home {
+  border-radius: 5%;
+  margin-left: 10px;
+  margin-right: auto;
+  width: 50%;
+}
+.tech {
+  border-radius: 5%;
+  margin-left: 10px;
+  margin-right: auto;
+  width: 50%;
+}
+
+.home-img {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  border-radius: 20px;
+  margin-left: auto;
+  text-decoration: none;
+}
+.scam-img {
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.tech-img {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.links {
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.github-a {
+  margin-left: 10%;
+}
+
+.hobbie-h {
+  font-family: "Sacramento", cursive;
+  color: white;
+  margin-top: 25%;
+}
